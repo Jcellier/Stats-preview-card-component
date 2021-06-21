@@ -8,7 +8,7 @@
   }
   &__image {
     position: relative;
-    background-image: url("/Stats-preview-card-component/images/image-header-mobile.jpg");
+    background-image: url("../images/image-header-mobile.jpg");
     background-size: cover;
     min-height: 35vh;
     width: 100%;
@@ -18,7 +18,7 @@
     }
     @include desktop {
       border-radius: 0 12px 12px 0;
-      background-image: url("/Stats-preview-card-component/images/image-header-desktop.jpg");
+      background-image: url("../images/image-header-desktop.jpg");
       background-size: cover;
       width: 100%;
       min-height: 0vh;
