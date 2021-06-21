@@ -1,0 +1,28 @@
+.main-content {
+  font-size: $font-size;
+  &__header {
+    font-family: $font-inter;
+    font-weight: 700;
+    color: $headers-color;
+    & em {
+      text-decoration: none;
+      font-style: normal;
+      color: $accent-violet;
+    }
+  }
+  &__desc {
+    font-family: $font-inter;
+    font-weight: 400;
+    color: $main-color;
+  }
+  &__stats h2 {
+    font-family: $font-inter;
+    font-weight: 700;
+    color: $headers-color;
+  }
+  &__stats p {
+    font-family: $font-lexend;
+    font-weight: 400;
+    color: $stat-color;
+  }
+}
